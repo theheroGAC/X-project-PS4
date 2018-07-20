@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8"> 
+  <title>X-PROJECT</title>   
+  <link rel='stylesheet prefetch' href='css/icons.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="content" class="content"><iframe name="content" class="content" src="payloads/blank.html"></iframe></div>
+<h1 class="top" onclick="myFunction()">5.05 EXPLOIT HOST 2.0:</h1>
+<center><strong><font color="yellow">(PRESS PS BUTTON WHEN LOADED)</font></strong></center>
+<div id="xmb-contain">
+  <div id="xmb">
+    <ul>
+      <li class="column" v-for="column,index in columns" v-bind:class="{active:column.active}" v-bind:style="{left:column.position.x+'px'}">
+        <div class="cell" v-bind:class="{active:column.active}" v-on:click="highlightCell(column.index,0)">
+		<i class="material-icons xmb-icon">{{column.icon}}</i>
+        <label>{{column.title}}</label>
+        </div>
+        <ul>
+          <li class="cell submenu" v-for="item,itemIndex in column.items" v-bind:class="{active:item.active}" v-bind:style="{top:item.position.y+'px'}" v-on:click="highlightCell(column.index,itemIndex)"> 
+          <a v-bind:href="item.href = item.expage" target="content">
+              <i class="material-icons xmb-icon">{{item.icon}}</i>
+              <label>{{item.title}} 
+              <label class="subtitle">{{item.subtitle}}</label>
+              </label></a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<script src="js/vue.js"></script>
+<script src="js/lodash.min.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+var x = document.getElementsByTagName("UL")[0];
+var payloadcount = 59;
+x.getElementsByTagName("LI")[payloadcount].style.display = "none";
+</script>
+<script>
+function myFunction() {
+    var x = document.getElementsByTagName("UL")[0];
+    if (x.getElementsByTagName("LI")[payloadcount].style.display === "none") {
+        x.getElementsByTagName("LI")[payloadcount].style.display = "block";
+    } else {
+        x.getElementsByTagName("LI")[payloadcount].style.display = "none";
+    }
+}
+</script>
+</body>
+</html>

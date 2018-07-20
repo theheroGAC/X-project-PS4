@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+		body {
+			background-color: black;
+			transition: background-color 2s;
+		}
+</style>
+</head>
+<title>INSERT COIN TO PLAY</title>
+<style>
+.button {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 64px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: lime;
+    color: white;
+}
+.button2 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button2:hover {
+    background-color: lime;
+    color: white;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+		var colors = ["black", "navy"];
+
+		var i = 1;
+
+		window.setInterval(function(){
+			document.body.style.backgroundColor = colors[i];
+			i++;
+			if (i === colors.length){
+				i=0;
+			}
+		}, 3000);
+	</script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<script>
+function myFunction() {
+    window.open("./xproject.html");
+	//window.open('','_self').close();
+}
+</script>
+<script>
+function startTimer(duration, display) {
+    var start = Date.now(),
+        diff,
+        minutes,
+        seconds;
+    function timer() {
+        diff = duration - (((Date.now() - start) / 1000) | 0);
+        minutes = (diff / 60) | 0;
+        seconds = (diff % 60) | 0;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        display.textContent = seconds; 
+        if (diff <= 0) {
+            start = Date.now() + 1000;
+        }
+    };
+timer();
+    setInterval(timer, 1000);
+}
+window.onload = function () {
+    var halfmin = 30 * 1,
+        display = document.querySelector('#time');
+    startTimer(halfmin, display);
+	setTimeout(myFunction, 30000);
+};
+</script>
+<br><br><br>
+<center>
+<div><font size ="10" color="lime">WELCOME TO THE X-PROJECT</font></div>
+<div><font size ="5" color="red">FOR THE BEST EXPERIENCE: ALLOW THE PS4 <span id="time"></span> SECS BEFORE STARTING.</font></div>
+<br>
+<button class="button" onclick="myFunction()">START X-PROJECT</button>
+<br><br>
+<div><font size ="3" color="white">KNOW WHAT YOUR DOING & HATE WAITING? THEN CLICK START TO SKIP.</font></div>
+<video id="mv" width="0" height="0" autoplay>
+<source src="music.mp4" type="video/mp4">
+</video>
+<br>
+<button class="button2" onclick="pauseVid()">TOGGLE:SFX</button>
+<script> 
+var vid = document.getElementById("mv"); 
+var isplaying = true
+
+function pauseVid() { 
+    if (isplaying) {
+	vid.pause()
+	} else {
+	vid.play();
+	}
+};
+	vid.onplay = function() {
+	isplaying = true;
+	};
+	vid.onpause = function() {
+	isplaying = false;
+	};
+	
+
+</script> 
+</center>
+</body>
+</html>
