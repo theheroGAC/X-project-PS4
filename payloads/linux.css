@@ -1,0 +1,28 @@
+html, body {
+background-size: auto;
+background-color: white;
+color: black;
+}
+.loader {
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  border-top: 25px solid white;
+  border-left: 25px solid yellow;
+  border-bottom: 25px solid white;
+  border-right: 25px solid yellow;
+  width: 600px;
+  height: 600px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+h1 {
+	text-shadow: 2px 2px white;
+}
+

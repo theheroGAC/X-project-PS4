@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>X-CACHE</title>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<link rel="stylesheet prefetch" href="exploit.css">
+<div id="status" class="info">PREPARING CACHE..</div>
+<script>
+function ondownloading(){changeText("CACHING NOW PLEASE WAIT...");}
+function oncached(){changeText("X-PROJECT INSTALLED!");}
+function onupdateready(){changeText("CACHE UPDATED");}
+function onnoupdate(){changeText("NO UPDATES AVAILABLE");}
+function onerror(){changeText("ERROR CACHING");}
+function changeText(text){var display = document.getElementById('status'); display.innerHTML = ""; display.innerHTML = text;}
+</script>
+</head>
+<body>
+<iframe id="ifrm" src="xmbinstaller.html" style="border:none;"></iframe>
+</body>
+</html>
