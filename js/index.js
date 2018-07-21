@@ -28,7 +28,7 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: "laptop",
-      items: [{ title: "LINUX", subtitle: "1.0(EEPLY)", active: false, icon: "camera", expage: "payloads/eeplinuxloader.html"}, { title: "LINUX", subtitle: "1.0(Vultra)", active: false, icon: "keyboard", expage: "payloads/linux.html"}, { title: "KEXEC", subtitle: "1.0(ValentineBreize)", active: false, icon: "widgets", expage: "payloads/kexec.html"}]
+      items: [{ title: "LINUX", subtitle: "1.0(EEPLY)", active: false, icon: "camera", expage: "payloads/eeplinuxloader.html"}, { title: "LINUX", subtitle: "1.0(Vultra)", active: false, icon: "keyboard", expage: "payloads/linux.html"}, { title: "KEXEC", subtitle: "1.0(ValentineBreize)", active: false, icon: "widgets", expage: "payloads/apptousb.html"}]
     },
     "BACKUP": {
       index: 3,
@@ -92,8 +92,8 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: "help",
-      items: [{ title: "CREDITI", subtitle: "LEGENDS", active: false, icon: "fingerprint", expage: "payloads/creditsloader.html" }, { title: "INFO", subtitle: "DEFINIZIONI", active: false, icon: "info", expage: "payloads/infoloader.html" }]
-        },
+      items: [{ title: "CREDITS", subtitle: "LEGENDS", active: false, icon: "fingerprint", expage: "payloads/creditsloader.html" }, { title: "INFO", subtitle: "DEFINITIONS", active: false, icon: "info", expage: "payloads/infoloader.html" }]
+    },
 	"★DEBUG": {
       index: 11,
       title: "★DEBUG",
