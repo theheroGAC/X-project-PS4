@@ -108,7 +108,7 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: "help",
-      items: [{ title: "SUPPORTO", subtitle: "(SITO DI SUPPORTO)", active: false, icon: "healing", expage: "payloads/site.html" }]
+      items: [{ title: "SUPPORTO", subtitle: "(SITO)", active: false, icon: "healing", expage: "payloads/site.html" }]
 	},
   }
   //add zero position to each column and item
