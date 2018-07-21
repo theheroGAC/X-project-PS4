@@ -28,7 +28,7 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: "laptop",
-      items: [{ title: "LINUX", subtitle: "1.0(EEPLY)", active: false, icon: "camera", expage: "payloads/eeplinuxloader.html"}, { title: "LINUX", subtitle: "1.0(Vultra)", active: false, icon: "keyboard", expage: "payloads/linux.html"}, { title: "KEXEC", subtitle: "1.0(ValentineBreize)", active: false, icon: "widgets", expage: "payloads/apptousb.html"}]
+      items: [{ title: "LINUX", subtitle: "1.0(EEPLY)", active: false, icon: "camera", expage: "payloads/eeplinuxloader.html"}, { title: "LINUX", subtitle: "1.0(Vultra)", active: false, icon: "keyboard", expage: "payloads/linux.html"}, { title: "KEXEC", subtitle: "1.0(ValentineBreize)", active: false, icon: "widgets", expage: "payloads/kexec.html"}]
     },
     "BACKUP": {
       index: 3,
