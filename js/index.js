@@ -92,7 +92,7 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: "help",
-      items: [{ title: "CREDITI", subtitle: "LEGENDS", active: false, icon: "fingerprint", expage: "payloads/creditsloader.html" }, { title: "INFO", subtitle: "DEFINIZIONI", active: false, icon: "info", expage: "payloads/infoloader.html" }, { title: "INFO", subtitle: "VISITA SITO", active: false, icon: "info", expage: "https://www.gamesandconsoles.org/"]
+      items: [{ title: "CREDITI", subtitle: "LEGENDS", active: false, icon: "fingerprint", expage: "payloads/creditsloader.html" }, { title: "INFO", subtitle: "DEFINIZIONI", active: false, icon: "info", expage: "payloads/infoloader.html" }, { title: "SITO", subtitle: "VISITA SITO", active: false, icon: "info", expage: "https://www.gamesandconsoles.org/" }]
     },
 	"★DEBUG": {
       index: 11,
