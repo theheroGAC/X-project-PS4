@@ -36,7 +36,7 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: "backup",
-      items: [{ title: "VTXDUMP", subtitle: "1.8(xVortex)", active: false, icon: "archive", expage: "payloads/vtxdump.html"}, { title: "DB_SG", subtitle: "3.0(Stooged)", active: false, icon: "save", expage: "payloads/dbsg.html" }, { title: "APPTOUSB", subtitle: "3.0(Stooged)", active: false, icon: "storage", expage: "payloads/apptousb.html"}, { title: "APPTOUSB_ALT", subtitle: "1.0(Jakkal)", active: false, icon: "dns", expage: "payloads/apptousb1alt.html"}, { title: "USB_FPKG", subtitle: "1.1b(Specialfood)", active: false, icon: "usb", expage: "payloads/usbfpkgs.html" }]
+      items: [{ title: "VTXDUMP", subtitle: "1.8(xVortex)", active: false, icon: "archive", expage: "payloads/vtxdump.html"}, { title: "DB_SG", subtitle: "3.0(Stooged)", active: false, icon: "save", expage: "payloads/dbsg.html" }, { title: "APPTOUSB", subtitle: "3.0(Stooged)", active: false, icon: "storage", expage: "payloads/kexec.html"}, { title: "APPTOUSB_ALT", subtitle: "1.0(Jakkal)", active: false, icon: "dns", expage: "payloads/apptousb1alt.html"}, { title: "USB_FPKG", subtitle: "1.1b(Specialfood)", active: false, icon: "usb", expage: "payloads/usbfpkgs.html" }]
     },
     "SYSTEM": {
       index: 4,
