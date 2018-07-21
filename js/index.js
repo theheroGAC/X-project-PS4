@@ -92,7 +92,7 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: "help",
-      items: [{ title: "CREDITI", subtitle: "LEGENDS", active: false, icon: "fingerprint", expage: "payloads/creditsloader.html" }, { title: "INFO", subtitle: "DEFINIZIONI", active: false, icon: "info", expage: "payloads/infoloader.html" }, { title: "SUPPORTO", subtitle: "VISITA IL SITO", active: false, icon: "pets", expage: "payloads/site.html" }, { title: "SUPPORTO SU TELEGRAM", subtitle: "VISITA CANALE TELEGRAM", active: false, icon: "info", expage: "payloads/infoloader.html" }]
+      items: [{ title: "CREDITI", subtitle: "LEGENDS", active: false, icon: "fingerprint", expage: "payloads/creditsloader.html" }, { title: "INFO", subtitle: "DEFINIZIONI", active: false, icon: "info", expage: "payloads/infoloader.html" }, { title: "SUPPORTO", subtitle: "VISITA SITO", active: false, icon: "info", expage: "payloads/site.html" }]
     },
 	"★DEBUG": {
       index: 11,
