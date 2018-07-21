@@ -92,7 +92,7 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: "help",
-      items: [{ title: "CREDITI", subtitle: "LEGENDS", active: false, icon: "fingerprint", expage: "payloads/creditsloader.html" }, { title: "INFO", subtitle: "DEFINIZIONI", active: false, icon: "info", expage: "payloads/infoloader.html" }, { title: "SUPPORTO", subtitle: "10.0(Visita sito)", active: false, icon: "info", expage: "payloads/site.html" }]
+      items: [{ title: "CREDITI", subtitle: "LEGENDS", active: false, icon: "fingerprint", expage: "payloads/creditsloader.html" }, { title: "INFO", subtitle: "DEFINIZIONI", active: false, icon: "info", expage: "payloads/infoloader.html" }]
         },
 	"★DEBUG": {
       index: 11,
@@ -107,7 +107,7 @@ var model = {
       title: "SUPPORTO",
       selectedIndex: 0,
       active: false,
-      icon: "cake",
+      icon: "help",
       items: [{ title: "SUPPORTO", subtitle: "(SITO DI SUPPORTO)", active: false, icon: "healing", expage: "payloads/site.html" }]
 	},
   }
