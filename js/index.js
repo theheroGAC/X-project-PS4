@@ -102,6 +102,14 @@ var model = {
       icon: "cake",
       items: [{ title: "★PAYLOAD", subtitle: "(QUICK_TESTING)", active: false, icon: "healing", expage: "payloads/testloader.html" }]
 	},
+       "SUPPORTO": {
+      index: 12,
+      title: "SUPPORTO",
+      selectedIndex: 0,
+      active: false,
+      icon: "cake",
+      items: [{ title: "SUPPORTO", subtitle: "(SITO DI SUPPORTO)", active: false, icon: "healing", expage: "payloads/site.html" }]
+	},
   }
   //add zero position to each column and item
 };_.each(model.columns, function (c) {
