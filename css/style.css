@@ -6,7 +6,7 @@ body {
   height: 100%;
   overflow: hidden;
   color: white;
-  background-color: DARKOLIVEGREEN;
+  background-color: url("Background.jpg");
   font-family: "roboto", sans-serif;
 }
 .content {
